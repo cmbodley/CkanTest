@@ -1,6 +1,6 @@
 echo "setting the name of the app"
 ckan config-tool $CKAN_INI -s app:main "ckan.site_title = North"
 ckan config-tool $CKAN_INI -s app:main "ckan.homepage_style = 2"
-ckan config-tool $CKAN_INI -s app:main "ckan.site_description = Up North Repository"
+ckan config-tool $CKAN_INI -s app:main "ckan.site_description = North Repository"
 ckan config-tool $CKAN_INI -s app:main "ckan.upload.admin.types = image"
 ckan config-tool $CKAN_INI -s app:main "ckan.upload.admin.mimetypes = image/png image/gif image/jpeg"
