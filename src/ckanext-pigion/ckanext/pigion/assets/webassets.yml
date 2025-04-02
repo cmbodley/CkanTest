@@ -1,0 +1,14 @@
+# pigion-js:
+#   filter: rjsmin
+#   output: ckanext-pigion/%(version)s-pigion.js
+#   contents:
+#     - js/pigion.js
+#   extra:
+#     preload:
+#       - base/main
+
+# pigion-css:
+#   filter: cssrewrite
+#   output: ckanext-pigion/%(version)s-pigion.css
+#   contents:
+#     - css/pigion.css
